@@ -3,6 +3,7 @@ import Header from './components/Header'
 import './App.css'
 import Layout from './components/Layout'
 import Menu from './components/Menu'
+import MainSection from './components/MainSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Layout>
         <Menu />
+        <MainSection />
       </Layout>
     </div>
   )
