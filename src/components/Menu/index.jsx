@@ -3,11 +3,8 @@ import meditation from '../../assets/meditation.svg'
 import swimming from '../../assets/swimming.svg'
 import biking from '../../assets/biking.svg'
 import lifting from '../../assets/lifting.svg'
-import './index.sass'
-console.log(meditation);
-console.log(swimming);
-console.log(biking);
-console.log(lifting);
+import './Menu.sass'
+
 const Menu = () => {
 
   const buttons = [

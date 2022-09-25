@@ -1,4 +1,4 @@
-import './index.sass'
+import './Menu.sass'
 
 const Button = ({props}) => {
     const {activity, icon} = props
