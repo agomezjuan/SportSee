@@ -1,27 +1,28 @@
-import Button from './Button'
-import meditation from '../../assets/meditation.svg'
-import swimming from '../../assets/swimming.svg'
-import biking from '../../assets/biking.svg'
-import lifting from '../../assets/lifting.svg'
-import './Menu.sass'
+import Button from "./Button";
+import meditation from "../../assets/meditation.svg";
+import swimming from "../../assets/swimming.svg";
+import biking from "../../assets/biking.svg";
+import lifting from "../../assets/lifting.svg";
+import "./Menu.sass";
 
 const Menu = () => {
-
   const buttons = [
-    {activity: "Meditation", icon: meditation},
-    {activity: "Swimming", icon: swimming},
-    {activity: "Biking", icon: biking},
-    {activity: "Lifting", icon: lifting},
-  ]
+    { activity: "Meditation", icon: meditation },
+    { activity: "Swimming", icon: swimming },
+    { activity: "Biking", icon: biking },
+    { activity: "Lifting", icon: lifting },
+  ];
 
   return (
-    <aside className='left-menu'>
+    <aside className="left-menu">
       <div className="menu-options">
-        {buttons.map((button, index) => {return <Button props={button} key={index} />})}
+        {buttons.map((button, index) => {
+          return <Button props={button} key={index} />;
+        })}
       </div>
-        <p>Copiryght, SportSee 2020</p>
+      <p>Copiryght, SportSee 2020</p>
     </aside>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;

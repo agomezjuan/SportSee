@@ -6,12 +6,12 @@ const ProfileHeader = () => {
   const { firstName } = useUser();
 
   return (
-    <header>
+    <div className="header">
       <h1>
         Bonjour <span>{firstName}</span>
       </h1>
       <p>Félicitation ! Vous avez explosé vos objectifs hier 👏</p>
-    </header>
+    </div>
   );
 };
 
